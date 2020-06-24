@@ -4,7 +4,7 @@ package created;
  * 抽象工厂模式
  * 抽象工厂的问题是显而易见的，比如我们要加个显示器，就需要修改所有的工厂，给所有的工厂都加上制造显示器的方法。这有点违反了对修改关闭，对扩展开放这个设计原则。
  */
-public class AbstractFactoryMode {
+public class AbstractFactoryPattern {
     public static void main(String[] args) {
         // 第一步就要选定一个“大厂”
         ComputerFactory1 cf = new AmdFactory();

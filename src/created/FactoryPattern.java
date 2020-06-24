@@ -8,7 +8,7 @@ package created;
  * 核心在于，我们需要在第一步选好我们需要的工厂。比如，我们有 LogFactory 接口，实现类有 FileLogFactory 和 KafkaLogFactory，分别对应将日志写入文件和写入 Kafka 中，
  * 显然，我们客户端第一步就需要决定到底要实例化 FileLogFactory 还是 KafkaLogFactory，这将决定之后的所有的操作。
  */
-public class FactoryMode {
+public class FactoryPattern {
     public static void main(String[]args){
         ChineseComputerFactory computerFactory = new ChineseComputerFactory();
         computerFactory.createComputer("hp").start();

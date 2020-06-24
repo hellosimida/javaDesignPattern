@@ -3,7 +3,7 @@ package created;
 /**
  * 建造者模式
  */
-public class BuilderMode {
+public class BuilderPattern {
     public static void main(String[] args) {
         User user = User.builder()
                 .name("foo")
